@@ -9,11 +9,11 @@
 
 ## Overview
 
-This project sets up a proactive defense against phishing. It shifts the focus from temporary email content to the digital fingerprints of URLs. The project utilizes a robust dataset with 41 unique features. These include character entropy, subdomain depth, and path complexity. This approach goes beyond just using a simple block list. It aims to identify the core patterns of malicious intent in a domain’s setup. </br> </br>
+This project sets up a proactive defense against phishing. It shifts the focus from temporary email content to the digital fingerprints of URLs. The project utilizes a robust dataset with 41 unique features. These include character entropy, subdomain depth, and path complexity. This approach goes beyond just using a simple block list. It aims to identify the core patterns of malicious intent in a domain’s setup. </br> 
 
-The `lightGBM` (Light Gradient Boosting Machine) package is utilized with the <code>bonsai</code> engine in R's `tidymodels` ecosystem. This helps manage complex data at scale. `LightGBM` was chosen for its leaf-wise tree growth strategy. This method is great at spotting subtle, non-linear connections between URL features, that traditional models often miss. It also offers the efficiency needed for real-time network log analysis. </br> </br>
+The `lightGBM` (Light Gradient Boosting Machine) package is utilized with the <code>bonsai</code> engine in R's `tidymodels` ecosystem. This helps manage complex data at scale. `LightGBM` was chosen for its leaf-wise tree growth strategy. This method is great at spotting subtle, non-linear connections between URL features, that traditional models often miss. It also offers the efficiency needed for real-time network log analysis. </br> 
 
-The resulting model gives a clear and adjustable security posture. The R `probably` library is used to switch between two models. The secure-first stance aims to catch nearly all threats. The user-centric stance focuses on reducing false positives, which helps boost productivity. </br> </br>
+The resulting model gives a clear and adjustable security posture. The R `probably` library is used to switch between two models. The secure-first stance aims to catch nearly all threats. The user-centric stance focuses on reducing false positives, which helps boost productivity. </br> 
 
 Additionally, Variable Importance Plots (VIP) are employed using the R `vip` library for transparency. This turns the machine learning black box into a clear audit trail. Readers can spot indicators that influence risk scores. These include high URL entropy and strange directory structures. This makes sure defensive choices are based on data and match an organization's risk tolerance.
 
