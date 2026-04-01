@@ -3,7 +3,7 @@
 **Author:** Patrick Lefler  
 **Published:** 2026-03-31  
 **Project #:** 11 </br>
-**Tools:** R | Quarto |  | ggplot2 | kableExtra
+**Tools:** R | `quarto`  `tidyverse` `tidymodels`  `lightGBM`  `probably`  `vip`
 
 ---
 
