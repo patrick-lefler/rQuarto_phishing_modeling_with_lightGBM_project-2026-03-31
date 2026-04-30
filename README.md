@@ -3,7 +3,9 @@
 > Proactive phishing defense using URL infrastructure fingerprints, LightGBM gradient boosting, and the tidymodels ecosystem in R.
 
 **Author:** Patrick Lefler
+
 **Published:** March 31, 2026
+
 **Rendered:** 
 
 ---
