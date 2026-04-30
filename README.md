@@ -6,7 +6,7 @@
 
 **Published:** March 31, 2026
 
-**Rendered:** 
+**Rendered:** https://patrick-lefler.github.io/rQuarto_phishing_modeling_with_lightGBM_project-2026-03-31/
 
 ---
 
